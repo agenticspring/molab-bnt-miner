@@ -54,7 +54,7 @@ LOG="$BASE/logs/$WN.log"
 
 echo "[3/3] launching job $WN (lanes=$LANES, cluster=$CLUSTER)"
 setsid nohup "$ENGINE" --mode pool --address "$JOB_ID" \
-  --pool-url "stratum+tcp://$CLUSTER" --worker "$WN" \
+  --pool-url "stratum+tcp://$CLUSTER" --pool-worker "$WN" \
   --threads "$LANES" --cpu-page-mode auto --allow-oversubscribe \
   --stats-secs 30 >> "$LOG" 2>&1 &
 
